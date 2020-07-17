@@ -24,7 +24,7 @@ docker build -t sisso .
 ```
 
 -----------------------------------------------------------------------
-To run, mounting the test data and writing outputs to ./hostData:
+To run, mounting the test data and writing outputs to ./hostData (Read/write data folder for container):
 `docker run -v $(pwd)/hostData:/root/hostData  -i sisso`
 
 Windows uses different mounting syntax, be in the Users folder:
