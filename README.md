@@ -30,7 +30,7 @@ To run, mounting the test data and writing outputs to ./hostData (Read/write dat
 `docker run -v $(pwd)/hostData:/root/hostData  -i sisso`
 
 Windows uses different mounting syntax, be in the Users folder:
-`docker run -v /run/desktop/mnt/host/c/Users/jckla/SISSO_docker/hostData:/root/hostData -i sometag`
+`docker run -v /run/desktop/mnt/host/c/Users/jckla/SISSO_docker/hostData:/root/hostData -i sisso`
 
 -----------------------------------------------------------------------
 Run Notes: Adjust the mpirun # parallel cores in entry.sh low # from laptop
