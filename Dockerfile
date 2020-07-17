@@ -27,6 +27,6 @@ RUN cd src && mpifort -O2 var_global.f90 libsisso.f90 DI.f90 FC.f90 SISSO.f90 -o
 RUN mkdir /root/hostData
 COPY entry.sh /root/
 #\r ...
-RUN sed -i 's\r//g' entry.sh
+RUN sed -i 's/\r//g' entry.sh
 WORKDIR /root/hostData
 ENTRYPOINT ["/bin/bash", "/root/entry.sh"]
