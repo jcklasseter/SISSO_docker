@@ -15,15 +15,17 @@ https://docs.docker.com/engine/install/
 
 
 To build:
+```
 git clone https://github.com/jcklasseter/SISSO_docker/SISSO_docker.git
 
 cd SISSO_docker.git
 
 docker build -t sisso .
+```
 
 To run, mounting the test data and writing outputs to ./hostData
-docker run -v $(pwd)/hostData:/root/hostData  -i sisso
+`docker run -v $(pwd)/hostData:/root/hostData  -i sisso`
 
 Windows uses different mounting syntax, be in the Users folder:
-docker run -v /run/desktop/mnt/host/c/Users/jckla/SISSO_docker/hostData:/root/hostData -i sometag
+`docker run -v /run/desktop/mnt/host/c/Users/jckla/SISSO_docker/hostData:/root/hostData -i sometag`
 
