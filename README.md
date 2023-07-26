@@ -1,6 +1,6 @@
 SISSO on Docker 
 
-Compiles MPICH from source
+Uses Intel oneAPI
 
 -----------------------------------------------------------------------
 Docker Desktop for Windows Pro, Enterprise, Educational (WSL2 on OS build 20* or higher is best, WSL1 or Windows containers should also work)
